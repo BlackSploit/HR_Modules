@@ -1,0 +1,1 @@
+ALTER TABLE public.candidates ADD COLUMN IF NOT EXISTS work_history jsonb DEFAULT '[]'::jsonb;
